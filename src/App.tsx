@@ -1,4 +1,12 @@
-import { Box, Flex, Grid, GridItem, Show } from "@chakra-ui/react";
+import {
+  Box,
+  Flex,
+  Grid,
+  GridItem,
+  Heading,
+  Link,
+  Show,
+} from "@chakra-ui/react";
 import NavBar from "./components/NavBar";
 import GameGrid from "./components/GameGrid";
 import GenreList from "./components/GenreList";
@@ -45,6 +53,12 @@ function App() {
       </Show>
       <GridItem area="main">
         <Box paddingLeft={2}>
+          <Heading fontSize="sm">
+            Created by{" "}
+            <Link href="https://www.linkedin.com/in/daniel-kang-46b1a51b9/">
+              Daniel Kang
+            </Link>
+          </Heading>
           <GameHeading gameQuery={gameQuery} />
           <Flex marginBottom={5}>
             <Box marginRight={5}>
