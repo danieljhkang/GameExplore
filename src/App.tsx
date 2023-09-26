@@ -55,7 +55,7 @@ function App() {
         <Box paddingLeft={2}>
           <Heading fontSize="sm">
             Created by{" "}
-            <Link href="https://www.linkedin.com/in/daniel-kang-46b1a51b9/">
+            <Link href="https://www.linkedin.com/in/daniel-j-kang/">
               Daniel Kang
             </Link>
           </Heading>
