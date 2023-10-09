@@ -4,6 +4,8 @@ Game Explore is a video game discovery web app that helps you find new and inter
 
 This web app is viewable at https://game-explore.netlify.app
 
+Game Explore was created following the guide by CodeWithMosh
+
 ## Run on local machine
 
 To run Game Explore on your local machine, follow these steps:
